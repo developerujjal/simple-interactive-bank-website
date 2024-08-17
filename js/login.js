@@ -17,10 +17,10 @@ document.getElementById("submit-btn").addEventListener("click", function(){
     // step 4: have to compare but it's not recommended. It just for practice. ! Dangerour !
 
     if(emailValue === ("amarbank@gmail.com") && passwordValue === ("lotsOfMoney")){
-        console.log("Valid User");
+        window.location.href = "bank.html";
     }
 
     else{
-        console.log("Invalid User");
+        alert("Does not Match. Please Try Again!");
     }
 })

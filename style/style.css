@@ -71,3 +71,51 @@ body {
     cursor: pointer;
     background-color: #1c7a32;
 }
+
+
+
+/* 
+bank.css
+
+*/
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 150px));
+    justify-content: space-evenly;
+}
+
+.money-box:first-child{
+    background-color: #6A5ACD;
+    color: white;
+}
+
+.money-box:nth-child(2){
+    background-color: #FFA500;
+    color: white;
+}
+
+.money-box:last-child{
+    background-color: #28a745;
+    color: white;
+}
+
+.money-box{
+    border-radius: 10px;
+    padding: 25px 20px;
+}
+
+.money-box h2{
+    font-size: 1.6rem;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.money-box h3{
+    font-size: 2.4rem;
+    margin: 0;
+}
+
+.all-counter-section{
+    padding: 15px 0px;
+}
