@@ -37,7 +37,10 @@ document.getElementById("btn-withdraw").addEventListener("click", function(){
 
     if(balanceValue <= withdrawValue){
         alert("You don't have enough Money. Please deposit Now!");
-        withdrawTotalEelement.innerText = "00";
+        withdrawTotalEelement.innerText = withdrawTotalValueSting;
+
+        withdrawField.value = '';
+
         return;
     }
 
